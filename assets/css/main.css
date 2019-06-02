@@ -1,0 +1,259 @@
+body {
+    background-color: #d7d7d7;
+}
+             
+.container {
+    position: relative;
+    margin: 5% auto 5%;
+    width: 2551px;
+    height: 3579px;
+    background-color: #ffffff;   
+}
+
+.resume {
+    padding-top: 205px;
+    margin: 0 auto 0; 
+    max-width: 160px;
+    max-height: 35px; 
+}
+
+.disk {
+    position: relative;
+    border-top: 2px solid #22252c;;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-bottom: 2px solid transparent; 
+    margin: 0px auto;
+    width: 150px;
+    height: 91px;
+    border-radius: 50%;
+}
+
+.disk p {
+    font-family: lato; 
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: absolute;
+    left: 50%; /*все буквы в одну точку*/
+    width: 0; 
+}
+
+/*Позиционирую строку*/
+
+.disk p:nth-of-type(-n+9) {
+    bottom: 4%; /*отступ от центра к радиусу*/  
+    transform-origin: 0% 140%;
+    padding-bottom: 50%; /* отступ от центра круга */
+}
+ 
+.disk p:nth-of-type(1) {
+    transform: rotate(-30deg); /*буквa t*/
+}
+
+.disk p:nth-of-type(2) {
+    transform: rotate(-24deg); /*буква h*/
+}
+
+.disk p:nth-of-type(3) {
+    transform: rotate(-17deg); /*буква e*/
+} /*буква e*/
+
+.disk p:nth-of-type(4) {
+    transform: rotate(-7deg); /* буква r */ 
+}
+
+.disk p:nth-of-type(5) {
+    transform: rotate(-1deg); /* буква e */ 
+}
+
+.disk p:nth-of-type(6) {
+    transform: rotate(5deg); /* буква s */ 
+}
+
+.disk p:nth-of-type(7) {
+    transform: rotate(11deg); /* буква u */ 
+}
+
+.disk p:nth-of-type(8) {
+    transform: rotate(18deg); /* буква m */ 
+}
+
+.disk p:nth-of-type(9) {
+    transform: rotate(26deg); /* буква e */ 
+}
+
+h1 {
+    font-family: "Bebas Neue Book", sans-serif;
+    font-size: 92px;
+    font-weight: 400;  
+    letter-spacing: 2px; 
+    text-transform: uppercase;
+    color: #22252c;
+    width: 510px;
+    height: 67px;
+    margin: 8px auto;
+}
+
+.yellow-lines {
+    width: 130px;
+    height: 14px;
+    margin: 28px auto;
+}
+
+.line {
+    width: 130px; 
+    height: 4px; 
+    margin-bottom: 6px;
+    background-color: #ffc600;
+}
+
+.grey-line {
+    width: 2129px;
+    height: 6px;
+    background-color: #d7d7d7;
+    margin: 29 auto 60px;
+}
+
+.contacts {
+    display: inline-block;
+    vertical-align: middle;
+    padding-bottom: 50px; 
+}
+
+.rectangle {
+    display: inline-block;
+    vertical-align: middle;
+    width: 313px;
+    height: 172px;
+    margin-left: 363px;
+    background-color: #ffc600;
+}
+
+.rectangle p {
+    width: 366px;
+    height: 122px;
+    margin: 7 -155px;
+    font-family: lato;
+    font-size: 63px; 
+    font-weight: 700; 
+    text-transform: uppercase; 
+    letter-spacing: 11.25px;
+    vertical-align: middle;
+}
+
+.adress {
+    display: inline-block;
+    width: 193px;
+    height: auto;
+    color: #7b8690;
+    font-family: Lato;
+    font-size: 26px;
+    padding-left: 36px; 
+    vertical-align: middle; 
+}
+
+.rectangle-phone {
+    display: inline-block;
+    width: 313px;
+    height: 172px;
+    margin-left: 16px;
+    padding-left: 20px; 
+    background-color: #ffc600;
+    font-family: Lato;
+    font-size: 28px;
+    color: #22252c;
+    font-weight: 400;
+    letter-spacing: 0.67px;
+}
+
+.rectangle-phone, a {
+    text-decoration: none; 
+    color: #22252c;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contacts img {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 10px; 
+}
+
+.hadset-icon {
+    margin-right: 8px; 
+}
+
+.links {
+    width: 450px;
+    height: 172px;
+    margin-left: 40px; 
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.links, a {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    font-family: Lato;
+    font-size: 30px;
+    letter-spacing: 1.92px;
+    font-weight: 400;
+    color: #22252c;
+}
+
+.links img {
+    padding-right: 20px; 
+}
+
+.contacts a {
+    margin-top: 30px; 
+}
+
+.letter {
+    width: 2129px;
+    margin: auto;    
+}
+
+.letter h3 {
+    font-family: Lato;
+    font-size: 42px;
+    font-weight: 900;
+    color: #000000;
+    margin-top: 150px; 
+    margin-left: 474px;
+}
+
+.left-column {
+    display: inline-block;
+    vertical-align: top; 
+    width: 350px;
+    height: auto; 
+    font-family: Lato;
+    font-size: 42px;
+    font-weight: 300;
+    color: #6d7074;
+}
+
+.right-column {
+    display: inline-block; 
+    width: 1551px;
+    margin-left: 119px; 
+    font-family: Lato;
+    font-size: 42px;
+    color: #6d7074;
+    font-weight: 300;
+}
+
+#sign {
+    margin-top: 70px;
+    margin-left: 346px;
+}
+
+.logo {
+    position: absolute;
+    padding-left: 50%;
+    padding-right: 50%; 
+    bottom: 195px; 
+}
